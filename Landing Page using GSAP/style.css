@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Roboto&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Faculty Glyphic", sans-serif;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+   /* color: black; */
+}
+section{
+   height: 100%;
+   width: 100%;
+   position: relative;
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 40px 50px;  
+   /* margin-bottom: 15px; */
+   /* upar niche , rightleft */
+}
+.part2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 60px;
+}
+nav h1{
+   font-size: 30px;
+   cursor: pointer;
+}
+nav h1 i{
+   display: inline-block;
+   rotate: 45deg;
+   font-size: 1.3em;
+}
+nav h4{
+   font-size: 17px;
+   font-weight: 600;
+   cursor: pointer;
+}
+nav button{
+   padding: 10px 20px;
+   border: 1px solid #000;
+   border-radius: 7px;
+   font-weight: 600;
+   background-color: white;
+   cursor: pointer;
+   font-size: 18px;
+}
+.center{
+   /* background-color: red; */
+   height: 85%;
+   width: 100%;
+   display: flex;
+   padding: 40px;
+}
+.center-part1{
+   /* background-color: lightblue; */
+   height: 100%;
+   width: 45%;
+}
+
+.center-part1 h1{
+   font-size: 65px;
+   line-height: 1.4;
+}
+.center-part1 p{
+   font-size: 25px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.center-part1 button{
+   border: 2px solid black;
+   color: white;
+   background-color: #000;
+   padding: 10px 15px;
+   border-radius: 7px;
+   margin-top: 15px;
+   font-size: 20px;
+}
+.center-part2{
+   /* background-color: rgb(108, 231, 118); */
+   height: 100%;
+   width: 55%;
+   position: relative;
+}
+.center-part2 img{
+   position: absolute;
+   right: 0;
+}
+.section1bottom {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 50px;
+   padding: 40px 50px;
+}
+
+.section1bottom img {
+   width: 130px;
+   height: 130px;
+   object-fit: contain; /* Prevents distortion */
+   filter: grayscale(100%) brightness(0) contrast(100%);
+}
+
+.section2 .services {
+   /* background-color: red; */
+   padding: 40px 50px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 30px;
+}
+.services h3{
+   background-color: #9AE975;
+   font-size: 30px;
+   padding: 3px;
+}
+.services p{
+   width: 60%;
+   font-size: 20px;
+}
+.container {
+   /* background-color: red; */
+   height: 100%;                  /* Container takes 80% of the viewport height */
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;               /* Allow items to wrap onto the next row */
+   padding:40px;
+}
+
+.elem {
+   height: 270px;                   /* Each div takes 50% of the container’s height */
+   width: 48%;                    /* Divs take up 45% of the width (2 divs per row) */
+   border: 2.5px solid black;
+   border-radius: 30px;
+   background-color: white;      /* Optional background color */
+   flex-shrink: 0;                /* Prevent shrinking */
+   box-shadow: 0px 10px 0px black;
+}
+
